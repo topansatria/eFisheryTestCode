@@ -1,4 +1,4 @@
-# eFisheryTestCode
+# Applications Prices of fisheries in Indonesia
 This is a android app fish price project. I have implemented here Rx JAVA using android MVVM architecture pattern using Room Database MutipleTable.
 
 # Used Component
