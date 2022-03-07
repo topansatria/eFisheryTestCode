@@ -1,8 +1,14 @@
 # eFisheryTestCode
-Petunjuk Pengguaan Aplikasi :
+This is a android app fish price project. I have implemented here Rx JAVA using android MVVM architecture pattern using Room Database MutipleTable.
 
-1. Download project / clone dari github
-2. Buka android studio
-3. klik file dan pilih projek yang sudah di download
-4. Hubungkan device ke komputer
-5. Klik tombol run di android studio untuk menginstall aplikasi
+# Used Component
+-RecyclerView And CardView
+-Room Database
+-AndroidX
+-ViewModel and LiveData
+-RXJava
+-Used language Java
+
+$ Project Structure
+![image](https://user-images.githubusercontent.com/43629664/157084045-3f6c2f13-5a42-45d8-ba0e-6cf9ffe2e0e2.png)
+
