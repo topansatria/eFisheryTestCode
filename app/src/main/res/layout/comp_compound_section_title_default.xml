@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/_20sdp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section Title"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:maxEms="18"
+        android:textColor="@color/eFisheryDarkGreen"
+        style="@style/Typography_Title_Section_Semibold" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub title of this pretium pharetra hendrerit proin sit orci malesuada"
+        android:textColor="@color/eFisheryBlack"
+        style="@style/Typography_Body_Small_Text"
+        android:layout_marginTop="6dp"/>
+
+</LinearLayout>

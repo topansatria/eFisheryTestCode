@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/eFisheryLightGreen</item>
+        <item name="colorPrimaryDark">@color/eFisheryDarkGreen</item>
+        <item name="colorAccent">@color/eFisheryYellow</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="contentInsetStart">@dimen/_1sdp</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/custom_wrap_bg_white_15dp</item>
+    </style>
+
+    <style name="myTextInputLabel" >
+        <item name="colorAccent">@color/eFisheryLightGreen</item>
+        <item name="colorControlNormal">@color/eFisheryLightGray</item>
+        <item name="colorControlActivated">@color/eFisheryLightGray</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/eFisheryRed</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">14sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+</resources>

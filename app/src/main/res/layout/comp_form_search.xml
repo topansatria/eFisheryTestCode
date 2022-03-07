@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="9dp"
+        android:maxLines="1"
+        android:paddingBottom="12dp"
+        android:paddingStart="12dp"
+        android:paddingRight="9dp"
+        android:ellipsize="end"
+        android:background="@drawable/custom_wrap_bg_dark_green_10dp"
+        android:drawableStart="@drawable/ic_search_yellow"
+        android:hint="@string/et_hint_search"
+        android:textColorHint="@color/eFisheryLightGray"
+        android:textColor="@color/eFisheryWhite"
+        android:drawablePadding="7dp"
+        android:inputType="text"
+        style="@style/Typography_Body_Smaller_Text"
+        android:imeOptions="actionSearch"/>
+
+</LinearLayout>

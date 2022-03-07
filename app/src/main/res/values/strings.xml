@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">eFhisery</string>
+
+    <!--  EDIT TEXT  -->
+    <string name="et_hint_search">Cari Komoditas</string>
+    <string name="et_hint_input_komoditas">Masukan Komoditas</string>
+    <string name="et_hint_input_provinsi">Masukan Provinsi</string>
+    <string name="et_hint_input_kota">Masukan Kota</string>
+    <string name="et_hint_input_ukuran">Masukan Ukuran</string>
+    <string name="et_hint_input_harga">Masukan Harga</string>
+
+    <!--  SECTION ADD -->
+    <string name="sec_title_add">Tambah Data</string>
+    <string name="sec_description_add">Isi semua inputan</string>
+
+    <!--  INPUTAN  -->
+    <string name="tv_komoditas">Komoditas</string>
+    <string name="tv_province">Provinsi</string>
+    <string name="tv_city">Kota</string>
+    <string name="tv_size">Ukuran</string>
+    <string name="tv_price">Harga</string>
+
+    <!-- TEXT SORTING -->
+    <string name="text_title_sorting">Urutkan Data</string>
+    <string name="text_title_filter">Filter Data</string>
+    <string name="text_highest_price">Harga Tertinggi</string>
+    <string name="text_lowest_price">Harga Terendah</string>
+    <string name="text_highest_size">Ukuran Tertinggi</string>
+    <string name="text_lowest_size">Ukuran Terendah</string>
+    <string name="text_newest">Terbaru</string>
+    <string name="text_oldest">Terlama</string>
+
+    <!--  BUTTON  -->
+    <string name="btn_save">Simpan</string>
+    <string name="btn_filter">Filter</string>
+
+    <!--  ANOTHER TEXT  -->
+    <string name="text_reset_data">Reset</string>
+
+    <!--  VALIDASI INPUTAN  -->
+    <string name="text_validate_komoditas">Isi Komoditas</string>
+    <string name="text_validate_price">Isi Harga</string>
+
+</resources>

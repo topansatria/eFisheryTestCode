@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="25dp"
+        android:paddingHorizontal="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Menu Big"
+                style="@style/Typography_Title_Section_Semibold"
+                android:textColor="@color/eFisheryDarkGreen" />
+
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_close_black"/>
+
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/rgOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Provinsi" />
+
+            <RadioButton
+                android:id="@+id/rbKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/llProvinsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_province"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <Spinner
+                android:id="@+id/spinProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                style="Typography_Body_Smaller_Text"
+                android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llKota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_city"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <Spinner
+                android:id="@+id/spinKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                style="Typography_Body_Smaller_Text"
+                android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_5sdp">
+
+            <include
+                android:id="@+id/compBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                layout="@layout/comp_button"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

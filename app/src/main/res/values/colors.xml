@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eFisheryTransparent">#00FFFFFF</color>
+    <color name="eFisheryDarkGreen">#038767</color>
+    <color name="eFisheryLightGreen">#03DAC5</color>
+    <color name="eFisheryYellowTeal">#DCF35D</color>
+    <color name="eFisheryYellow">#FFD200</color>
+    <color name="eFisheryBlack">#1D1D1D</color>
+    <color name="eFisheryWhite">#FFFFFF</color>
+    <color name="eFisheryDarkGray">#526B7A</color>
+    <color name="eFisheryLightGray">#E0E7EB</color>
+    <color name="eFisheryRed">#EE445B</color>
+</resources>

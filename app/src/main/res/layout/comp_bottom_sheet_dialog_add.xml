@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llDivTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="4dp"
+            android:background="@color/eFisheryLightGray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25dp">
+
+        <include
+            android:id="@+id/compSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            layout="@layout/comp_compound_section_title_default"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/llTop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_komoditas"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilKomoditas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:theme="@style/myTextInputLabel"
+                app:hintAnimationEnabled="false"
+                app:hintEnabled="false"
+                app:errorTextAppearance="@style/error_appearance"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etKomoditas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:paddingVertical="@dimen/_10sdp"
+                    style="Typography_Body_Smaller_Text"
+                    android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"
+                    android:hint="@string/et_hint_input_komoditas"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="textCapSentences|textPersonName"
+                    android:imeOptions="actionNext" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_province"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <Spinner
+                android:id="@+id/spinProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                style="Typography_Body_Smaller_Text"
+                android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_city"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <Spinner
+                android:id="@+id/spinKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                style="Typography_Body_Smaller_Text"
+                android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_size"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <Spinner
+                android:id="@+id/spinSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                style="Typography_Body_Smaller_Text"
+                android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_price"
+                android:textColor="@color/eFisheryBlack"
+                style="@style/Typography_Body_Normal_Text" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:theme="@style/myTextInputLabel"
+                app:hintAnimationEnabled="false"
+                app:hintEnabled="false"
+                app:errorTextAppearance="@style/error_appearance"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:paddingVertical="@dimen/_10sdp"
+                    style="Typography_Body_Smaller_Text"
+                    android:background="@drawable/custom_wrap_border_radius_light_gray_10dp"
+                    android:hint="@string/et_hint_input_harga"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:imeOptions="actionGo" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/compBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/llInput"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        layout="@layout/comp_button"/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Small"
+        android:paddingVertical="7dp"
+        android:paddingHorizontal="12dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/eFisheryWhite"
+        style="@style/Typography_Button_Label_Medium"
+        android:background="@drawable/custom_wrap_bg_dark_green_10dp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
